@@ -1,0 +1,116 @@
+/* Global  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;900&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.nav-bar {
+  font-size: 1.1em;
+  padding: .8em 0;
+}
+
+.nav-bar .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 3em;
+}
+
+.main-nav {
+  list-style: none;
+}
+
+.nav-bar .logo {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  align-self: center;
+}
+
+.nav-bar .logo span {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-bar .main-nav {
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar .main-nav a {
+  padding: 0 1.8em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-bar .main-nav .cta {
+  background-color: #18A800;
+  font-weight: 600;
+  padding: .5em .8em;
+  border-radius: 10px;
+}
+.nav-bar .main-nav .cta:hover {
+  background-color: #3ba528;
+}
+
+/* homepage */
+
+.homepage {
+  background: linear-gradient(rgba(20,20,20, .5), rgba(20,20,20, .5)), url('../img/kent-rebman-Hau9TnHS130-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 80vh;
+}
+
+.main-search {
+  color: #fff;
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+}
+
+.search-heading {
+  color: #ffffff;
+}
+
+.search-bar input[type=text] {
+  border: 1px solid white;
+  border-radius: 5px 0px 0px 5px;
+  float: left;
+  padding: 10px;
+  margin-left: 33%;
+  width: 28%;
+  font-size: 17px;
+}
+
+.search-button {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: .9em 2em;
+  background: #18A800;
+  border: 1px solid #18A800;
+  border-left: none;
+  border-radius: 0px 5px 5px 0px;
+  float: left;
+  width: 6%;
+}
