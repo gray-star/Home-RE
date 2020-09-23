@@ -114,3 +114,60 @@
   float: left;
   width: 6%;
 }
+
+/* Featured Listings */
+
+.featured-listing .section-title {
+  margin: 2.1em 0;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.featured-listing .cards {
+  margin: 0 auto;
+  max-width: 1250px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+
+ .featured-listing img {
+  width: 100%;
+  display: block;
+}
+
+.featured-listing .card-content {
+  padding-bottom: 1.8em;
+}
+
+.featured-listing .card-content h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: .2em 0;
+}
+
+.featured-listing .card-content p {
+  font-size: 18px;
+  color: #333333;
+}
+
+.featured-listing .card-content .en-suites {
+  font-size: 14px;
+}
+
+.featured-listing .card-content .en-suites span{
+  font-weight: 600;
+}
+
+.about-us a {
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding: 10px 30px;
+  margin-left: 5em;
+  border-radius: .3em; 
+}
+
