@@ -70,7 +70,7 @@
 }
 
 .cards {
-  margin: 0 auto;
+  margin: 0 auto 5.9em;
   max-width: 1250px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -133,7 +133,7 @@
 }
 
  .featured-listing img {
-  width: 375px;
+  width: 100%;
   height: 250px;
   display: block;
 }
@@ -175,7 +175,7 @@
 /* Meet Our Agents */
 .meet-our-agents {
   background: #ededed;
-  min-height: 20vh;
+  min-height: 110vh;
 }
 
 .meet-our-agents h1 {
@@ -191,7 +191,33 @@
 }
 
 .meet-our-agents img {
-  width: 350px;
-  height: 375px;
+  width: 100%;
+  height: 525px;
   display: block;
+}
+
+
+.meet-our-agents .agent-name {
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.meet-our-agents h3 {
+  text-align: center;
+  font-size: 1.4em;
+  color: #464646dc;
+  padding-bottom: .6em;
+}
+
+.meet-our-agents p {
+  text-align: center;
+}
+
+/* footer  */
+
+footer {
+  background: #3e3e3e;
+  color: #b1afaf;
+  text-align: center;
+  padding: 1.2em 0;
 }
