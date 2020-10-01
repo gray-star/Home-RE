@@ -267,8 +267,7 @@ footer {
 
   .hamburger {
     display: inline-block;
-    justify-self: end;
-    align-self: center;
+    float: right;
   }
 
   .line {
@@ -284,6 +283,10 @@ footer {
 
   .logo {
     font-size: 1.3em;
+  }
+
+  .main-nav li {
+    display: none;
   }
 
   .search-bar input[type="text"] {
