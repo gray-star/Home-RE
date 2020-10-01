@@ -285,8 +285,16 @@ footer {
     font-size: 1.3em;
   }
 
-  .main-nav li {
-    display: none;
+  .nav-bar .main-nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #333;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
   }
 
   .search-bar input[type="text"] {
