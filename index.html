@@ -12,7 +12,7 @@
     <nav class="nav-bar">
       <div class="container">
         <a class="logo" href="index.html">Home <span>RE</span></a>
-        <div class="hamburger">
+        <div class="hamburger" onclick="openNav()">
           <div class="line"></div>
           <div class="line"></div>
           <div class="line"></div>
@@ -24,6 +24,13 @@
           <li><a href="login.html">Login</a></li>
           <li><a class="cta" href="sign-up.html">Sign up</a></li>
         </ul>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index.html">Home</a>
+          <a href="blog.html">Blog</a>
+          <a href="browse.html">Browse</a>
+          <a href="login.html">Sign Up</a>
+        </div>
       </div>
     </nav>
     <div class="main-search">
