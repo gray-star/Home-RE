@@ -222,7 +222,7 @@ a {
 /* Meet Our Agents */
 .meet-our-agents {
   background: #ededed;
-  min-height: 110vh;
+  min-height: 140vh;
 }
 
 .meet-our-agents h1 {
@@ -269,7 +269,13 @@ footer {
   padding: 1.2em 0;
 }
 
-/* media query */
+/* media queries */
+
+@media (max-width: 1366px) {
+  .meet-our-agents {
+    min-height: 100vh;
+  }
+}
 
 @media (max-width: 1024px) {
   .cards {
@@ -278,7 +284,7 @@ footer {
   }
 
   .search-button {
-    width: auto;
+    width: 7em;
   }
 
   .container {
@@ -302,7 +308,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 
   .hamburger {
     display: block;
