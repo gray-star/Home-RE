@@ -271,11 +271,7 @@ footer {
 
 /* media queries */
 
-@media (max-width: 1366px) {
-  .meet-our-agents {
-    min-height: 100vh;
-  }
-}
+/* Ipad */
 
 @media (max-width: 1024px) {
   .cards {
@@ -371,4 +367,56 @@ footer {
    .meet-our-agents {
     min-height: 250vh;
   }
+}
+
+/* iphone 6, 7, 8 +*/
+
+@media only screen and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+  .cards {
+    width: 75%;
+  }
+
+  .meet-our-agents {
+    min-height: 350vh;
+  }
+
+  .search-bar input[type="text"] {
+    margin-left: 15%;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .meet-our-agents {
+      min-height: 600vh;
+    }
+
+    .search-bar input[type="text"] {
+      margin-left: 20%;
+    }
+}
+
+/* Iphone X */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .meet-our-agents {
+      min-height: 325vh;
+    }
+    .cards {
+      width: 75%;
+    }
+
+    .search-bar input[type="text"]{
+      margin-left: 12%;
+    }
 }
